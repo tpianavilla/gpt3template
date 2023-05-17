@@ -1,0 +1,25 @@
+
+import React from 'react'
+import  './whatGPT3.css'
+ import Feature from '../../components/feature/feature'
+
+const whatGPT3 = () => {
+  return (
+    <div className='gpt3__whatgpt3 section_margin' id='wgpt3'>
+      <div className="gpt3__whatgpt3-feature">
+        <Feature title="What is GPT-3?" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor at risus viverra adipiscing. Ac placerat vestibulum lectus mauris ultrices."/>
+      </div>
+      <div className="gpt3__whatgpt3-heading">
+        <h1 className="gradient__text">The possibilties are beyond your imagination</h1>
+        <p>Explore the library</p>
+      </div>
+      <div className="gpt3__whatgpt3-container">
+        <Feature title="Chatbots" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor at risus viverra adipiscing. Ac placerat vestibulum lectus mauris ultrices."/>
+        <Feature title="Knowledgebase" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor at risus viverra adipiscing. Ac placerat vestibulum lectus mauris ultrices."/>
+        <Feature title="Education" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor at risus viverra adipiscing. Ac placerat vestibulum lectus mauris ultrices."/>
+      </div>
+    </div>
+  )
+}
+
+export default whatGPT3
